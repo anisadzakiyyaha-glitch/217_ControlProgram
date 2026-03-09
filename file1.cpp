@@ -6,3 +6,9 @@ int main (){
 
     srand(time(0));
     x = rand() % 10;
+if (x==5){
+        x = x+1;cout<< "nilai x dikoreksi manjadi : "<<x<<endl;
+    }
+
+    cout << "Bilangan yang diberikan = "<<x;
+}
